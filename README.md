@@ -40,14 +40,15 @@ e necessário copiar o token retornado pela requisição, e adicionar a um Beare
     
         Para alterar um campo deve-se enviar uma requisição do tipo PATCH para http://localhost:2222/pedidos/pk/. No body deve conter o novo valor do campo, exemplo:
             
-            ```
+       ```
        {
         "personId":12345638911,
         "salesmanId":14,
         "productId":2,
         "value":12223.32
        }
-            ```
+       
+       ```
    
     * Para detalhes dos produtos é só seguir os mesmos passos realizado para pedidos. Endpoint http://localhost:2222/produtos/pk/
 * Possibilidade de gerar um relatório detalhado de pedidos, que possa ser ordenado por valor, ou data de compra. O relatório precisa ser paginado.
