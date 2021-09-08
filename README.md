@@ -27,6 +27,7 @@ yarn dev:server
     "email": "joanlopes30@gmail.com",
 	"password":"123456"
     } 
+    
     ```
 e necessário copiar o token retornado pela requisição, e adicionar a um Bearer token para autentificar;
 
